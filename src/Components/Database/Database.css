@@ -1,0 +1,148 @@
+.Database {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: red;
+}
+
+.total-db {
+    position: relative;
+}
+
+.form-database {
+    border: 2px solid black;
+    width: 33%;
+    height: 177px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 14%;
+    position: fixed;
+    transition: .5s ease;
+
+}
+
+.databasebox {
+    width: 310px;
+    background-color: white;
+    height: 247px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+
+.box-document {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 15%;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+}
+
+.form-database form {
+    margin: 10px;
+    gap: 0rem;
+}
+
+.form-database form textarea {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.newStyl form {
+    margin: 10px;
+    gap: 0rem;
+}
+
+.newStyl form textarea {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.newStyl {
+    border: 2px solid black;
+    width: 33%;
+    height: 177px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: -1;
+    transition: .5s ease;
+    z-index: 1;
+    opacity: .5;
+}
+
+.Database input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 -0.75rem rgb(13 110 253)
+}
+
+.Database button {
+    border: 1px solid black;
+    width: inherit;
+    background-image: linear-gradient(45deg, #041515, #6e0000ba);
+    color: white;
+    height: 34px;
+    border-radius: 6px;
+}
+
+.databasebox h4 {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(45deg, #002c31, #62f264);
+    padding: 10px 0px;
+    text-shadow: 3px 2px 2px black;
+    font-size: 19px;
+}
+
+.delet-btn button {
+    width: 100%;
+    background-image: linear-gradient(45deg, #9d2a2a, #100404);
+    padding: 5px;
+    color: white;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 5px 3px 1px black;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.databasebox p {
+    text-align: center;
+    padding: 0px 0px 7px;
+    border-bottom: 1px solid;
+    font-size: 12px;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px #08ff00;
+}
+
+.databasebox h5 {
+    padding: 5px;
+    margin-top: -15px;
+    background-image: linear-gradient(45deg, #054a3c, #07ccd18f);
+    color: white;
+    line-height: 29px;
+    font-family: none;
+    text-shadow: 3px 3px 3px black;
+    min-height: 141px;
+    text-align: center;
+}
+.delet-btn {
+    margin-top: -9px;
+}

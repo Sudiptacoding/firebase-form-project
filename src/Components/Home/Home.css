@@ -1,0 +1,46 @@
+#tsparticles {
+    height: 90vh;
+}
+
+.ts-partical {
+    height: 90vh;
+    width: 100%;
+}
+
+.inner-text {
+    position: absolute;
+    color: white;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 3px 5px 3px red;
+
+}
+
+.home-bg {
+    background-image: url('https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    z-index: 1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerText-h {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.innerText-h h1 {
+    font-size: 59px;
+    text-shadow: 3px 4px 2px black;
+}

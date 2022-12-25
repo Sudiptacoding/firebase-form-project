@@ -1,0 +1,17 @@
+.document{
+    padding-top: 67px;
+}
+.document h3{
+    text-align: center;
+}
+.document h4{
+    text-align: center;
+}
+
+#tsparticlessss{
+    width: 100%;
+    z-index: -1;
+}
+.document h3 , h4{
+    color: white;
+}

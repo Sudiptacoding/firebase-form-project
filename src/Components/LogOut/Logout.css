@@ -1,0 +1,32 @@
+.logout{
+    background-image: url('https://images.pexels.com/photos/2575690/pexels-photo-2575690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+}
+.logout button{
+    width: 157px;
+    height: 51px;
+    background-color: transparent;
+    border-radius: 27px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 5px;
+}
+.logout h1{
+    font-size: 40px;
+    text-shadow: 3px 4px 2px black;
+    color: white;
+}
+.logout button:hover{
+    background-color: #00ab5c33;
+}
